@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Box, Grid, Hidden } from '@mui/material';
 import Link from "next/link";
-
+import FormControl from "@mui/material/FormControl";
+import NativeSelect from "@mui/material/NativeSelect";
 
 // import icon
 
@@ -165,21 +166,20 @@ const SideBarTop = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={6} >
             <Box>
-              <ul className={classes.headerTopRight}>
-                <li className={classes.curency}>
-                  <select>
-                    <option value="">USD, $</option>
-                    <option value="">EUR, €</option>
-                  </select>
-                </li>
-                <li className={classes.language}>
-                  <LanguageIcon />
-                  <select>
-                    <option value="">English</option>
-                    <option value="">Viet Nam</option>
-                  </select>
-                </li>
-              </ul>
+              <FormControl className={classes.headerTopRight}>
+                <NativeSelect className={classes.curency}>
+                  <option value="">USD, $</option>
+                  <option value="">EUR, €</option>
+                </NativeSelect>
+                
+              </FormControl>
+              <FormControl className={classes.headerTopRight}>
+                <NativeSelect className={classes.curency}>
+                  <option value="">USD, $</option>
+                  <option value="">EUR, €</option>
+                </NativeSelect>
+                
+              </FormControl>
             </Box>
           </Grid>
         </Grid>

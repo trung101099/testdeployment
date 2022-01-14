@@ -28,7 +28,7 @@ import ListIcon from '@mui/icons-material/List';
 import { makeStyles } from "@material-ui/core";
 
 const colorHover = '#40c6ff';
-const useStyle = makeStyles({
+const useStyle_category_header = makeStyles({
 
   buttonCategory: {
     color: '#444',
@@ -115,7 +115,7 @@ const useStyle = makeStyles({
 
 export default function MenuListComposition() {
 
-  const classes = useStyle()
+  const classes = useStyle_category_header()
 
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);

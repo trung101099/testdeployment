@@ -18,7 +18,7 @@ const colorHeading = '#323232';
 const colorHover = '#40c6ff';
 const colorDefaul = '#666';
 
-const useStyle = makeStyles({
+const useStyle_HeaderTop = makeStyles({
   headerTop: {
     padding: '10px',
     backgroundColor: '#f3f3f3',
@@ -150,7 +150,7 @@ const useStyle = makeStyles({
 });
 
 const SideBarTop = () => {
-  const classes = useStyle()
+  const classes = useStyle_HeaderTop()
   return (
     <div className={classes.headerTop}>
       <Container>

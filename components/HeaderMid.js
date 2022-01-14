@@ -22,7 +22,7 @@ export const PER_PAGE_FIRST = 9;
 export const PER_PAGE_REST = 12;
 
 const Item = () => { };
-const useStyle= makeStyles({
+const useStyle_searchHeader = makeStyles({
 
     HeaderMidItem: {
         borderBottom: '1px solid #eee',
@@ -160,7 +160,7 @@ const HeaderMid = (props) => {
         console.log(searchQuery);
     }
 
-    const classes = useStyle();
+    const classes = useStyle_searchHeader();
 
     return (
         <>

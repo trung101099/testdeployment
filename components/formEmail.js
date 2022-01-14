@@ -9,7 +9,7 @@ import bgEmail from '../assets/img/bg-home1-newleter.png';
 import { Box, FormGroup, Input } from '@mui/material';
 
 
-const useStyles= makeStyles({
+const useStylesEmail = makeStyles({
     custormForm:{
         marginTop: "50px",
         background: `url(${bgEmail.src})`,
@@ -80,7 +80,7 @@ const useStyles= makeStyles({
 
 
 export default function  NameForm() {
-    const classes = useStyles();
+    const classes = useStylesEmail();
         return (
 
             <Box className={classes.custormForm} >

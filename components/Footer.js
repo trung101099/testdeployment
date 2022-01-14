@@ -24,7 +24,7 @@ const colorDefaul = '#666';
 // import images
 import imgWorking from '../assets/img/imgWorking.jpg';
 
-const useStyle_footer = makeStyles({
+const useStyle = makeStyles({
     box_f: {
         '@media (max-width: 899px)': {
             marginBottom: '25px',
@@ -158,7 +158,7 @@ const useStyle_footer = makeStyles({
 
 });
 const Footer = () => {
-    const classes = useStyle_footer()
+    const classes = useStyle()
     return (
         <div className={classes.footer_main}>
             <React.Fragment>

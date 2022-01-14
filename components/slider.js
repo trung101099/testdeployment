@@ -13,7 +13,7 @@ import Banner_3 from '../assets/img/banner3.png';
 // makestyle
 import { makeStyles } from "@material-ui/core";
 
-const useStyle_sliderHome = makeStyles({
+const useStyle= makeStyles({
   slider_images: {
     width: '100%',
     '@media(min-width:992px)': {
@@ -89,7 +89,7 @@ const images = [
 ];
 
 function SwipeableTextMobileStepper() {
-  const classes = useStyle_sliderHome();
+  const classes = useStyle();
 
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);

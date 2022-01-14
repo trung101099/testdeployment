@@ -13,7 +13,7 @@ const colorDefaul = '#666';
 const colorBorder = '#f4f4f4';
 
 const Item = () => { };
-const useStyle_copyright = makeStyles({
+const useStyle= makeStyles({
 
     Copyright: {
         borderTop: ' 1px solid',
@@ -41,7 +41,7 @@ const useStyle_copyright = makeStyles({
     }
 });
 const Copyright = () => {
-    const classes = useStyle_copyright()
+    const classes = useStyle()
     return (
         <div className={classes.Copyright}>
             <React.Fragment>

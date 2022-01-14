@@ -11,7 +11,7 @@ const colorHover = '#40c6ff';
 const colorDefaul = '#666';
 
 
-const useStyle_menuMain = makeStyles({
+const useStyle= makeStyles({
   navmenu: {
     padding: '0px',
     margin: '0px',
@@ -112,7 +112,7 @@ const useStyle_menuMain = makeStyles({
 });
 
 const ResponsiveAppBar = () => {
-  const classes = useStyle_menuMain()
+  const classes = useStyle()
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
   return (

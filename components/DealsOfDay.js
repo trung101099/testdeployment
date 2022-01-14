@@ -9,6 +9,9 @@ import Image_2 from '../assets/img/deals_of_day_2.png';
 import { Container } from "@mui/material";
 import { makeStyles } from '@mui/styles';
 import Link from '@mui/material/Link';
+import Image from 'next/image'
+
+
 
 const colorHover = '#40c6ff';
 const useStyles = makeStyles({
@@ -145,7 +148,7 @@ export default function DealsOfDay() {
                 border: "1px solid #f1f1f1",
               }}
             >
-              <img
+              <Image
                 src={Image_1.src}
                 style={{
                   width: 264,
@@ -200,7 +203,7 @@ export default function DealsOfDay() {
                 color: "#fff",
               }}
             >
-              <img
+              <Image
                 src={Image_2.src}
                 style={{
                   width: 264,

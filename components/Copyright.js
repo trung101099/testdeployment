@@ -6,7 +6,7 @@ import paymentImages from '../assets/img/payment.png';
 
 // makestyle
 import { makeStyles } from "@material-ui/core";
-
+import Image from 'next/image'
 
 const colorHover = '#40c6ff';
 const colorDefaul = '#666';
@@ -53,7 +53,7 @@ const Copyright = () => {
                             </Grid>
                             <Grid item xs={12} sm={6} md={6}>
                                 <div className={classes.payment}>
-                                    <img src={paymentImages.src} />
+                                    <new Image src={paymentImages.src} />
                                 </div>
                             </Grid>
                         </Grid>

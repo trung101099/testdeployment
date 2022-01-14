@@ -15,6 +15,7 @@ import { useState } from "react";
 import { useLazyQuery } from "@apollo/client";
 import client from "../libs/apollo/ApolloClient";
 import { useRouter } from "next/router";
+import Image from 'next/image'
 
 
 
@@ -174,7 +175,7 @@ const HeaderMid = (props) => {
                                     <div className={classes.logo}>
                                         <Link href='/'>
                                             <a>
-                                                <img src={LogoeBay.src} />
+                                                <Image src={LogoeBay.src} />
                                             </a>
                                         </Link>
                                     </div>

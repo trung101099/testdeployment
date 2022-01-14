@@ -15,6 +15,7 @@ import Image8 from '../assets/img/seller_8.png';
 import Image9 from '../assets/img/seller_9.png';
 import { Grid, Link } from "@mui/material";
 import { display } from "@mui/system";
+import Image from 'next/image'
 
 const useStyles = makeStyles({
   wrapperImage:{
@@ -121,7 +122,7 @@ export default function NewImageList() {
             <Box className={classes.box_1Image}>
               <Box>
                 <Link href="/shop">
-                <img src={Image1.src} className={classes.Image} />
+                <Image src={Image1.src} className={classes.Image} />
                 </Link>
               </Box>
           </Box>
@@ -130,24 +131,24 @@ export default function NewImageList() {
             <Box className={classes.box_2Image} >
                 <Box className={classes.box_2Image1}>
                 <Link href="/product/pny-micro-hc">
-                    <img src={Image2.src} className={classes.Image} />
+                    <Image src={Image2.src} className={classes.Image} />
                     </Link>
                 </Box>
                 <Box>
                 <Link href="/product/dz09-smart-watch">
-                    <img src={Image3.src} className={classes.Image} />
+                    <Image src={Image3.src} className={classes.Image} />
                     </Link>
                 </Box>
             </Box>
             <Box className={classes.box_2Image}>
                 <Box  className={classes.box_2Image2} >
                 <Link href="/product/fastfood-humburger-with-option">
-                    <img src={Image6.src} className={classes.Image} />
+                    <Image src={Image6.src} className={classes.Image} />
                     </Link>
                 </Box>
                 <Box >
                 <Link href="/product/black-skirt-for-women/">
-                    <img src={Image7.src} className={classes.Image} />
+                    <Image src={Image7.src} className={classes.Image} />
                     </Link>
                 </Box>
             </Box>
@@ -160,12 +161,12 @@ export default function NewImageList() {
           <Box className={classes.box_3Image}>
               <Box className={classes.box_Image}>
               <Link href="  /product/apple-swatch/">
-                  <img src={Image5.src} className={classes.Image}  />
+                  <Image src={Image5.src} className={classes.Image}  />
                   </Link>
               </Box>
               <Box>
               <Link href=" /product/apple-swatch/">
-                <img src={Image4.src} className={classes.Image}/>
+                <Image src={Image4.src} className={classes.Image}/>
                 </Link>
               </Box>
             
@@ -173,12 +174,12 @@ export default function NewImageList() {
           <Box className={classes.box_4Image}>
               <Box className={classes.box_Image}>
               <Link href=" /product/baby-hand-bell-rattlle/">
-                  <img src={Image8.src} className={classes.Image} />   
+                  <Image src={Image8.src} className={classes.Image} />   
                   </Link>
               </Box>
               <Box>
               <Link href="/product/american-humburger-with-salad/">
-                  <img src={Image9.src} className={classes.Image} />  
+                  <Image src={Image9.src} className={classes.Image} />  
                   </Link>
               </Box>
           </Box>

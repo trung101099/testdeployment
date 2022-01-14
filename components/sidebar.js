@@ -175,8 +175,8 @@ const SideBarTop = () => {
               </FormControl>
               <FormControl className={classes.headerTopRight}>
                 <NativeSelect className={classes.curency}>
-                  <option value="">USD, $</option>
-                  <option value="">EUR, €</option>
+                  <option value="">English</option>
+                  <option value="">VietNam</option>
                 </NativeSelect>
                 
               </FormControl>

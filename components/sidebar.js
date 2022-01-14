@@ -152,7 +152,8 @@ const useStyle_HeaderTop = makeStyles({
 const SideBarTop = () => {
   const classes = useStyle_HeaderTop()
   return (
-    <div className={classes.headerTop}>
+    <>
+    <Box className={classes.headerTop}>
       <Container>
         <Grid container spacing={2} >
           <Grid item sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} md={6}>
@@ -183,7 +184,8 @@ const SideBarTop = () => {
           </Grid>
         </Grid>
       </Container>
-    </div >
+    </Box >
+    </>
   );
 }
 export default SideBarTop;
